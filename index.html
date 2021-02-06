@@ -1,31 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>QCPC Barcode</title>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./style.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="libs/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/style.css">
+    <link rel="stylesheet" href="libs/hamberger-button.css">
+    <link rel="stylesheet" href="libs/count-down.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="libs/jquery/3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="libs/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/script.js"></script>
+    <script src="libs/hamberger-button.js"></script>
+    <script src="libs/count-down.js"></script>
 </head>
 
 <body>
-    <!-- partial:index.partial.html -->
-    <div ng-app="app" ng-controller="AppCtrl as appCtrl">
-        <h1>Barcode is coming...</h1>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a id="navbarNavBrand" class="navbar-brand" href="#artwork">QCPC 2021<br>
+            <sup>
+                <small class="text-light ">
+                    quchan university of advanced technology
+                </small>
+            </sup>
+        </a>
+        <div id="hbtn-container" style="width:100px;height: 50px;">
+            <ul id="hbtn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <li class="top"></li>
+                <li class="middle"></li>
+                <li class="bottom"></li>
+            </ul>
+        </div>
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#eventStart">
+                        زمان شروع
+                    <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">
+                        ثبت‌نام
+                    <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Prizes">
+                        جوایز
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#registeredTeams">
+                        تیم‌های ثبت شده
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactUs">
+                        تماس با ما
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <ng-barcode ng-barcode-input="{{appCtrl.barcodeInput | uppercase}}" ng-barcode-code="code39">
-        </ng-barcode>
+    <!-- ----------------- artwork -------------------- -->
+    <div id="artwork" class="container-fluid">
+        <h1 class="text-center"> Barcode <sup>4rd</sup></h1>
+        <img src="resources/artwork.svg" />
+    </div>
+    <!-- --------------- eventStart ------------------- -->
+    <div id="eventStart" class="container-fluid">
 
-        <div class="text-field">
-            <input type="text" ng-model="appCtrl.textField">
-            <button ng-click="appCtrl.updateBarcode()">Update</button>
+        <div class="cd-container">
+            <div id="countdown">
+                <ul>
+                    <li><span id="days"></span>روز</li>
+                    <li><span id="hours"></span>ساعت</li>
+                    <li><span id="minutes"></span>دقیقه</li>
+                    <li><span id="seconds"></span>ثانیه</li>
+                </ul>
+            </div>
+            <div class="message">
+                <div id="content">
+                    <span class="emoji">🥳</span>
+                    <span class="emoji">🎉</span>
+                </div>
+            </div>
+            <h4 class="text-center" dir="rtl">
+                مانده تا شروع مسابقه ...
+            </h4>
         </div>
     </div>
+    <div id="register" class="container-fluid">
+        <h1 class="text-center">
+            ثبت‌نام
+        </h1>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
-    <script src="./script.js"></script>
+    </div>
+    <div id="Prizes" class="container-fluid">
+        <h1 class="text-center">
+            جوایز
+        </h1>
 
+    </div>
+    <div id="registeredTeams" class="container-fluid">
+        <h1 class="text-center">
+            تیم‌های ثبت شده
+        </h1>
+
+        <table class="table table-hover table-striped table-dark" dir="rtl">
+            <thead>
+              <tr>
+                <th scope="col"><div class="text-right">#       </div></th>
+                <th scope="col"><div class="text-right">تیم     </div></th>
+                <th scope="col"><div class="text-right">دانشگاه </div></th>
+                <th scope="col"><div class="text-right">وضعیت   </div></th>
+              </tr>
+            </thead>
+            <tbody id="rteam-tbody">
+            </tbody>
+          </table>
+    </div>
+    <div id="contactUs" class="container-fluid">
+        <h1 class="text-center">
+            تماس با ما
+        </h1>
+
+    </div>
 </body>
 
 </html>
