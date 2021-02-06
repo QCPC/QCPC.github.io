@@ -1,0 +1,17 @@
+
+body {
+    position: relative; 
+}
+
+#artwork {
+    padding-top:200px;
+    color: #fff;
+    background-color: #061f64;
+    overflow:auto; 
+}
+
+#eventStart           {padding-top:50px;height:500px;color: #fff; background-color: #061f64;}
+#Prizes               {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#register             {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#registeredTeams      {padding-top:50px;height:500px;color: #fff; background-color: #343a40;}
+#contactUs            {padding-top:50px;height:500px;color: #fff; background-color: #960020;}
