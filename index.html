@@ -5,13 +5,6 @@
     <title>Barcode 4rd</title>
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181017867-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-181017867-1');
-</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="libs/bootstrap-4.5.0-dist/css/bootstrap.min.css">
@@ -19,6 +12,7 @@
     <link rel="stylesheet" href="libs/style.css">
     <link rel="stylesheet" href="libs/hamberger-button.css">
     <link rel="stylesheet" href="libs/count-down.css">
+    <link rel="stylesheet" href="libs/timeline.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -32,7 +26,7 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a id="navbarNavBrand" class="navbar-brand" href="#artwork"><span class="text-primary">QC</span><span class="text-warning">PC</span><span class="text-danger">2021</span><br>
+        <a id="navbarNavBrand" class="navbar-brand" href="#artwork"><span class="text-primary">QC</span><span class="text-warning">PC</span> <span class="text-danger">2021</span><br>
             <sup>
                 <small class="text-light ">
                     <span class="text-info">Q</span>uchan <span class="text-info">u</span>niversity of <span class="text-info">t</span>echnology
@@ -85,12 +79,11 @@
         
     <!-- ----------------- artwork -------------------- -->
     <div id="artwork" class="container-fluid">
-        <h1 class="text-center display-3">Barcode<sup>4rd</sup></h1>
-        <img width="100%"src="resources/artwork.jpg" />
+        <h1 class="text-center display-5">QCPC-Barcode<sup><small>4rd</small></sup></h1>
+        <img width="100%"src="resources/images/artwork.svg" />
     </div>
     <!-- --------------- eventStart ------------------- -->
     <div id="eventStart" class="container-fluid">
-
         <div class="cd-container">
             <div id="countdown">
                 <ul>
@@ -102,8 +95,12 @@
             </div>
             <div class="message">
                 <div id="content">
-                    <span class="emoji">🥳</span>
-                    <span class="emoji">🎉</span>
+                    <p>
+                        مسابقه به اتمام رسیده است
+                    </p>
+                    <span class="emoji">☁</span>
+                    <span class="emoji">💡</span>
+                    <span class="emoji">🎈</span>
                 </div>
             </div>
             <h4 class="text-center" dir="rtl">
@@ -111,19 +108,100 @@
             </h4>
         </div>
     </div>
-    <div id="register" class="container-fluid">
-        <h1 class="text-center">
+    <div id="register" class="container-fluid ">
+        <h1 class="text-center pb-5">
             ثبت‌نام
         </h1>
+        <div class="container-fluid">
+            <div class="row" dir="rtl">
+                <div class="col-12">
+                    <p class="text-center p-2">
+                        <i class="bi bi-exclamation-triangle text-primary"></i>
+                        دانشجویان دانشگاه صنعتی قوچان می‌توانند برای 
+                        دریافت کد تخفیف به آیدی
+                        <a href="https://t.me/QCPC_Barcode" class="no-text-deco text-primary" dir="ltr" target="blank">@QCPC_Barcode</a>
+                        در تلگرام مراجعه کنند.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <button type="button" class="btn btn-outline-info shadow-sm pr-4 pl-4" onclick="window.open('https://evand.com/events/qcpc-barcode','_blank')">
+                        ثبت‌نام
+                    </button>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div id="about" class="container-fluid">
-        <h1 class="text-center">
+        <h1 class="text-center pb-5">
             درباره
         </h1>
+        <div class="container-fluid">
+            <div class="row" dir="rtl">
+                <div class="col-md-6 text-right pr-5 pl-5 pl-md-0 pl-lg-0 pl-xl-0">
+                    <p class="text-justify">
+                        کمیته مسابقات <strong>ACM</strong> دانشگاه صنعتی قوچان (<strong>QCPC</strong>) با حمایت انجمن علمی گروه کامپیوتر و اعضای هیئت علمی گروه،
+                        با رویکرد افزایش توانایی علمی دانشجویان و ایجاد روحیه و انگیزه رقابت علمی قصد برگزاری رقابت‌های برنامه‌نویسی و
+                        تشویق دانشجویان به شرکت در مسابقات برنامه‌نویسی دانشجویی را مد نظر داشته است. 
+                    </p>
+                    <p class="text-justify">
+                        هدف ما این است که مسابقات برنامه‌نویسی دانشگاه صنعتی قوچان به یکی از مسابقات آمادگی رسمی
+                        برای مسابقات معتبر تر نظیر <strong>FCPC</strong> در سطح کشوری و <strong>ICPC</strong> تهران در سطح ملی تبدیل شود. 
+                    </p>
+                    <p class="text-justify">
+                        دانشگاه صنعتی قوچان در حال حاضر با برخورداری از دانشجویان مستعد و علاقه‌مند به موضوع برنامه‌نویسی
+                        و حمایت اعضا هیئت علمی این افتخار را دارد، که علاوه بر تعلیم تیم‌های دانشجویی بتواند برگزار کننده مسابقات
+                        سطح استانی و کشوری و  پذیرای تیم‌های فعال در این رقابت از دانشگاه‌های کشور باشد.  
+                    </p>
+                </div>
+                <div class="col-md-6 ">
+                    <h4 class="text-center pt-4 pb-4">
+                        برنامه زمانی
+                        مسابقه
+                    </h4>
+                    <div class="timeline text-right">
+                        <ul id="list">
+                            <li>
+                                <p class="title">
+                                    شروع مسابقه
+                                </p>
+                                <p>
+                                    شروع مسابقه از ساعت
+                                    ۱۲:۰۰
+                                    و به مدت ۵ ساعت است.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="title">
+                                    پایان مسابقه
+                                </p>
+                                <p>
+                                    مسابقه رأس ساعت
+                                    ۱۷:۰۰
+                                    پایان می‌یابد، و شرکت کنندگان می‌توانند برای اختتامیه آماده شوند.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="title">
+                                    اختتامیه    
+                                </p>
+                                <p>
+                                    اختتامیه مسابقه در ساعت
+                                    ۱۸:۰۰
+                                    که شامل تقدیر از نفرات اول تا سوم است.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="prizes" class="container-fluid">
-        <div class="container">
-            <div class="row w-100">
+        <div class="container-fluid" style="max-width:800px">
+            <div class="row">
                 <div class="col-12 pb-5">
                     <h1 class="text-center ml-4">
                         جوایز
@@ -135,7 +213,7 @@
                 </div>
                 <div class="col-4 col-lg-3 mw-25">
                     <br><br><br>
-                    <img src="resources/2th prize.svg" class="img-fluid " alt="">
+                    <img src="resources/images/2th prize.svg" class="img-fluid " alt="">
                     <h2 class="text-center" dir="rtl">
                         <p>
                             تیم دوم
@@ -146,7 +224,7 @@
                     </h2>
                 </div>
                 <div class="col-4 col-lg-4 mw-25">
-                    <img src="resources/1th prize.svg" class="img-fluid " alt="">
+                    <img src="resources/images/1th prize.svg" class="img-fluid " alt="">
                     <h2 class="text-center" dir="rtl">
                         <p>
                             تیم اوّل
@@ -157,7 +235,7 @@
                     </h2>
                 </div>
                 <div class="col-4 col-lg-3 pt-5 mt-5 mw-25">
-                    <img src="resources/3th prize.svg" class="img-fluid" alt="">
+                    <img src="resources/images/3th prize.svg" class="img-fluid" alt="">
                     <h2 class="text-center" dir="rtl">
                         <p>
                             تیم سوم
@@ -170,7 +248,7 @@
             </div>
         </div>
     </div>
-    <div id="registeredTeams" class="container-fluid">
+    <div id="registeredTeams" class="container-fluid pb-0">
         <h1 class="text-center pb-5">
             تیم‌های ثبت شده
         </h1>
@@ -189,8 +267,10 @@
         </table>
     </div>
     <div id="contactUs" class="container-fluid">
-        <div class="container">
-            <div class="row w-100">
+        <div class="bg-white" style="height:1px;width:90%;margin:auto;">
+        </div>
+        <div class="container-fluid pt-5">
+            <div class="row">
                 <div class="col-12 pb-5">
                     <h1 class="text-center ml-4">
                         تماس با ما
@@ -200,7 +280,7 @@
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-1 h3 text-center"> 
-                    <a href="mailto:barcode@qiet.ac.ir" class="bi bi-envelope text-dark"></a>         
+                    <a href="mailto:info.qcpc@gmail.com" class="bi bi-envelope text-dark"></a>         
                 </div>
                 <div class="col-2 h3 text-center"> 
                     <a href="tel:+9893881371165" class="bi bi-telephone text-dark"></a>

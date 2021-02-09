@@ -1,0 +1,44 @@
+
+.timeline {
+    margin: auto;
+}
+#list {
+    margin-right: 45%;
+    
+}
+
+.timeline li {
+    width: 220px;
+    padding:10px;
+    border-right: 2px solid #ffffff;
+    list-style-type: none;
+}
+
+.timeline li::before {
+    top: 20px;
+    left: 19px;
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+    background-color: white;
+    
+    display: block;
+    position: relative;
+    content: "";
+}
+
+.timeline li p{
+    width: 100%;
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.timeline li:nth-child(odd) p{
+    margin-right: -120%;
+}
+.timeline li:nth-child(odd) .title{
+    text-align: left;
+}

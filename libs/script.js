@@ -7,13 +7,24 @@ $(document).ready(function () {
         var rows= data.split("\n");
         var id = new Number(0);
 
+        if(data.length <= 0) {
+            table.append(
+                `<tr>
+                  <th scope="row"><div class="text-right">-</div></th>
+                  <td><div class="text-right">-</div></td>
+                  <td><div class="text-right">-</div></td>
+                  <td><div class="text-right">-</div></td>
+                </tr>`
+            );
+        }
+
         for(var row of rows) {
             if(row.length > 0) {
                 id++;
                 var col = row.split(",");
                 table.append(
                     `<tr>
-                      <th scope="row"><div class="text-right">${id.toLocaleString("ar-SA")}</div></th>
+                      <th scope="row"><div class="text-right">${id.toLocaleString("fa")}</div></th>
                       <td><div class="text-right">${col[0]}</div></td>
                       <td><div class="text-right">${col[1]}</div></td>
                       ${
@@ -45,3 +56,8 @@ $(document).ready(function () {
         }
     });
 });
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-181017867-1');

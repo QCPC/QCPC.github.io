@@ -34,8 +34,11 @@ body {
 }
 
 #eventStart             {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
-#register               {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
+#register               {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #bee7ff;}
 #about                  {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
-#prizes                 {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
+#prizes                 {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff6d6;}
 #registeredTeams        {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #343a40;}
-#contactUs              {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
+#contactUs              {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #343a40;}
+#contactUs a {
+    color: white !important;
+}

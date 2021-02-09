@@ -10,10 +10,10 @@ $(document).ready(() => {
       let now = new Date().getTime();
       let distance = countDown - now;
 
-      $("#days").html(Math.floor(distance / day));
-      $("#hours").html(Math.floor((distance % day) / hour));
-      $("#minutes").html(Math.floor((distance % hour) / minute));
-      $("#seconds").html(Math.floor((distance % minute) / second));
+      $("#days").html(Math.floor(distance / day).toLocaleString("fa"));
+      $("#hours").html(Math.floor((distance % day) / hour).toLocaleString("fa"));
+      $("#minutes").html(Math.floor((distance % hour) / minute).toLocaleString("fa"));
+      $("#seconds").html(Math.floor((distance % minute) / second).toLocaleString("fa"));
 
       if (distance < 0) {
         $("#countdown").css("display","none");
