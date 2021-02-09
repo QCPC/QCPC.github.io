@@ -5,13 +5,15 @@ $(document).ready(function () {
     $.get('../resources/nameList.csv', function (data) {
         var table = $("#rteam-tbody");
         var rows= data.split("\n");
+        var id = new Number(0);
 
         for(var row of rows) {
             if(row.length > 0) {
+                id++;
                 var col = row.split(",");
                 table.append(
                     `<tr>
-                      <th scope="row"><div class="text-right">۱</div></th>
+                      <th scope="row"><div class="text-right">${id.toLocaleString("ar-SA")}</div></th>
                       <td><div class="text-right">${col[0]}</div></td>
                       <td><div class="text-right">${col[1]}</div></td>
                       ${

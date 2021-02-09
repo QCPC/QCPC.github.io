@@ -1,17 +1,41 @@
 
+@font-face {
+    font-family: fa-brands-400;
+    src: url("../resources/fonts/fa-brands-400.ttf");
+}
+
 body {
     position: relative; 
+    background-color:#0c0b37
 }
+
+.bi-telegram::before { 
+    font-family: fa-brands-400 !important;
+    content: "\f3fe";
+}
+
+.no-text-deco, .no-text-deco:hover {
+    text-decoration: none;
+}
+
+.bi-telephone:hover::before             {color:#0051ff;}
+.bi-envelope:hover::before              {color:#ff0000;}
+.bi-telegram:hover::before              {color:#00b7ff;}
+
+[class*=" bi-"]::before {
+    transition: color 0.5s linear;
+}  
 
 #artwork {
     padding-top:200px;
     color: #fff;
-    background-color: #061f64;
+    background-color: #0c0b37;
     overflow:auto; 
 }
 
-#eventStart           {padding-top:50px;height:500px;color: #fff; background-color: #061f64;}
-#Prizes               {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#register             {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#registeredTeams      {padding-top:50px;height:500px;color: #fff; background-color: #343a40;}
-#contactUs            {padding-top:50px;height:500px;color: #fff; background-color: #960020;}
+#eventStart             {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
+#register               {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
+#about                  {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
+#prizes                 {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
+#registeredTeams        {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #343a40;}
+#contactUs              {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff;}
