@@ -4,14 +4,23 @@
 }
 #list {
     margin-right: 45%;
-    
 }
 
 .timeline li {
-    width: 220px;
+    width:220px;
     padding:10px;
     border-right: 2px solid #ffffff;
     list-style-type: none;
+}
+
+@media all and (max-width: 450px) {
+    .timeline li {
+        width:180px;
+    }
+
+    #list {
+        margin-right: 40%;
+    }
 }
 
 .timeline li::before {
@@ -37,7 +46,9 @@
 }
 
 .timeline li:nth-child(odd) p{
-    margin-right: -120%;
+    margin: 0;
+    padding: 0;
+    margin-right: -125%;
 }
 .timeline li:nth-child(odd) .title{
     text-align: left;

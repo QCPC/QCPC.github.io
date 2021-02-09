@@ -2,6 +2,7 @@
 @font-face {
     font-family: fa-brands-400;
     src: url("../resources/fonts/fa-brands-400.ttf");
+    font-display: fallback;
 }
 
 body {
@@ -39,6 +40,3 @@ body {
 #prizes                 {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff6d6;}
 #registeredTeams        {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #343a40;}
 #contactUs              {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #343a40;}
-#contactUs a {
-    color: white !important;
-}
