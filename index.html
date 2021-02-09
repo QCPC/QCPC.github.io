@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="libs/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/fonts/bootstrap-font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="libs/style.css">
     <link rel="stylesheet" href="libs/hamberger-button.css">
     <link rel="stylesheet" href="libs/count-down.css">
@@ -25,7 +26,7 @@
         <a id="navbarNavBrand" class="navbar-brand" href="#artwork">QCPC 2021<br>
             <sup>
                 <small class="text-light ">
-                    quchan university of advanced technology
+                    quchan university of technology
                 </small>
             </sup>
         </a>
@@ -50,7 +51,12 @@
                     <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Prizes">
+                    <a class="nav-link" href="#about">
+                        درباره مسابقه
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prizes">
                         جوایز
                     </a>
                 </li>
@@ -67,11 +73,11 @@
             </ul>
         </div>
     </nav>
-
+        
     <!-- ----------------- artwork -------------------- -->
     <div id="artwork" class="container-fluid">
-        <h1 class="text-center"> Barcode <sup>4rd</sup></h1>
-        <img src="resources/artwork.svg" />
+        <h1 class="text-center display-3">Barcode<sup>4rd</sup></h1>
+        <img width="100%"src="resources/artwork.jpg" />
     </div>
     <!-- --------------- eventStart ------------------- -->
     <div id="eventStart" class="container-fluid">
@@ -100,38 +106,102 @@
         <h1 class="text-center">
             ثبت‌نام
         </h1>
-
     </div>
-    <div id="Prizes" class="container-fluid">
+    <div id="about" class="container-fluid">
         <h1 class="text-center">
-            جوایز
+            درباره
         </h1>
-
+    </div>
+    <div id="prizes" class="container-fluid">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-12 pb-5">
+                    <h1 class="text-center ml-4">
+                        جوایز
+                    </h1>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-4 col-lg-3 mw-25">
+                    <br><br><br>
+                    <img src="resources/2th prize.svg" class="img-fluid " alt="">
+                    <h2 class="text-center" dir="rtl">
+                        <p>
+                            تیم دوم
+                        </p>
+                        <p>
+                            ۷٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h2>
+                </div>
+                <div class="col-4 col-lg-4 mw-25">
+                    <img src="resources/1th prize.svg" class="img-fluid " alt="">
+                    <h2 class="text-center" dir="rtl">
+                        <p>
+                            تیم اوّل
+                        </p>
+                        <p>
+                            ۱۰٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h2>
+                </div>
+                <div class="col-4 col-lg-3 pt-5 mt-5 mw-25">
+                    <img src="resources/3th prize.svg" class="img-fluid" alt="">
+                    <h2 class="text-center" dir="rtl">
+                        <p>
+                            تیم سوم
+                        </p>
+                        <p>
+                            ۵٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h2>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="registeredTeams" class="container-fluid">
-        <h1 class="text-center">
+        <h1 class="text-center pb-5">
             تیم‌های ثبت شده
         </h1>
 
         <table class="table table-hover table-striped table-dark" dir="rtl">
             <thead>
-              <tr>
+            <tr>
                 <th scope="col"><div class="text-right">#       </div></th>
                 <th scope="col"><div class="text-right">تیم     </div></th>
                 <th scope="col"><div class="text-right">دانشگاه </div></th>
                 <th scope="col"><div class="text-right">وضعیت   </div></th>
-              </tr>
+            </tr>
             </thead>
             <tbody id="rteam-tbody">
             </tbody>
-          </table>
+        </table>
     </div>
     <div id="contactUs" class="container-fluid">
-        <h1 class="text-center">
-            تماس با ما
-        </h1>
-
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-12 pb-5">
+                    <h1 class="text-center ml-4">
+                        تماس با ما
+                    </h1>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-1 h3 text-center"> 
+                    <a href="mailto:barcode@qiet.ac.ir" class="bi bi-envelope text-dark"></a>         
+                </div>
+                <div class="col-2 h3 text-center"> 
+                    <a href="tel:+9893881371165" class="bi bi-telephone text-dark"></a>
+                </div>
+                <div class="col-1 h3 text-center"> 
+                    <a href="https://t.me/QCPC_Barcode" class="bi bi-telegram text-dark" target="blank"></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
     </div>
 </body>
-
 </html>
