@@ -13,16 +13,6 @@
     list-style-type: none;
 }
 
-@media all and (max-width: 450px) {
-    .timeline li {
-        width:180px;
-    }
-
-    #list {
-        margin-right: 40%;
-    }
-}
-
 .timeline li::before {
     top: 20px;
     left: 19px;
@@ -44,6 +34,9 @@
     text-align: justify;
     text-justify: inter-word;
 }
+.timeline li .title{    
+    font-weight: bold;
+}
 
 .timeline li:nth-child(odd) p{
     margin: 0;
@@ -52,4 +45,24 @@
 }
 .timeline li:nth-child(odd) .title{
     text-align: left;
+    padding-bottom:10px;
+}
+
+@media all and (max-width: 490px) {
+    .timeline li {
+        width:100%;
+    }
+
+    #list {
+        margin-right: 0px;
+    }
+    
+    .timeline li:nth-child(odd) p{
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+
+    .timeline li:nth-child(odd) .title{
+        text-align: right;
+    }
 }
