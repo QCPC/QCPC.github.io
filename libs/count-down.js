@@ -20,6 +20,8 @@ $(document).ready(() => {
         $("#content").css("display","block");
 
         clearInterval(x);
+
+        $(".cd-container h4").css("visibility","hidden");
       }
-    }, 0);
+    }, 1000);
 });
