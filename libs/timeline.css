@@ -20,8 +20,9 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    border: 2px solid white;
     
-    background-color: white;
+    background-color: #0c0b37;
     
     display: block;
     position: relative;

@@ -50,14 +50,14 @@
             d="M82.323 116.884a73.592 73.592 0 0173.592-73.592M250.759 101.862l14.417-20.479-23.701-8.094 7.383-23.932-25.042-.374-.374-25.042-23.932 7.383-8.094-23.701-20.479 14.417L155.915 2l-15.021 20.04-20.479-14.417-8.094 23.701-23.932-7.383-.374 25.042-25.042.374 7.383 23.932-23.701 8.094 14.417 20.479-20.04 15.022 20.04 15.021-14.417 20.48 23.701 8.094-7.383 23.931 25.042.374.374 25.042 23.932-7.383 8.094 23.701 20.479-14.417 15.021 20.04 15.022-20.04 20.479 14.417 8.094-23.701 23.932 7.383.374-25.042 25.042-.374-7.383-23.931 23.701-8.094-14.417-20.48 20.04-15.021-20.04-15.022z" />
         <path class="prefix__c" d="M129.933 73.148h43.641v90.03h-26.035V86.946h-17.606z" />
         <path class="prefix__e" d="M258.225 205.875l2.456 5.475" />
-        <path stroke-dasharray="41.205 13.163 31.476 .572" class="prefix__c" stroke-width="4" stroke="#fff" stroke-linecap="round"
+        <path stroke-dasharray="41.205 13.163 31.476 .572" class="prefix__c"
             stroke-linejoin="round" fill="none" d="M263.024 216.571l35.257 78.584" />
         <path class="prefix__e" d="M298.398 295.416l2.456 5.474" />
-        <path stroke-dasharray="1 11 14 8 33 1" stroke-width="4" class="prefix__c" stroke="#fff" stroke-linecap="round"
+        <path stroke-dasharray="1 11 14 8 33 1" class="prefix__c"
             stroke-linejoin="round" fill="none" d="M252.543 261.502l-22.604-50.383" />
         <path class="prefix__d"
             d="M109.093 311.867l-16.972 48.226M68.141 202.281L26.101 315M78.928 224.639L62.769 267.9M121.176 235.721L83.589 343.87" />
-        <path stroke-dasharray="36 10 72 23 55 1" stroke-width="4" class="prefix__c" stroke="#fff" stroke-linecap="round"
+        <path stroke-dasharray="36 10 72 23 55 1" class="prefix__c"
             stroke-linejoin="round" fill="none" d="M201.507 255.137l36.354 81.03" />
         <path class="prefix__d" d="M224.953 225.415l36.354 81.029" />
         <path class="prefix__i"
