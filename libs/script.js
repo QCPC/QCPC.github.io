@@ -44,7 +44,7 @@ $(document).ready(function () {
             var hash = this.hash;
 
             $('html, body').animate({
-                scrollTop: $(hash).offset().top - 50
+                scrollTop: $(hash).offset().top - 80
             }, 800, function () {
                 if (history.pushState) {
                     history.pushState(null, null, hash);
