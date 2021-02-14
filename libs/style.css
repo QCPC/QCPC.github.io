@@ -39,10 +39,16 @@ body {
 #prizes h2{
     font-size: 4vw;   
 }
+#prizes h5{
+    font-size: 3.0vw;   
+}
 
 @media all and (min-width: 991px) {
     #prizes h2 {
         font-size: 1.7em;   
+    }
+    #prizes h5 {
+        font-size: 1.2em;   
     }
 }
 
@@ -54,8 +60,14 @@ body {
 }
 
 #eventStart             {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
-#register               {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #bee7ff;}
+#register               {padding:50px 0 100px 0;overflow:auto;color: #0c0b37; background-color: #fff;}
+
 #about                  {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
-#prizes                 {padding:50px 0 100px 0;overflow:auto;color: #343a40; background-color: #fff6d6;}
-#registeredTeams        {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
+#faq                    {padding:50px 0 100px 0;overflow:auto;color: #1f1e3b; background-color: #fff;}
+
+#prizes                 {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
+#registeredTeams        {padding:50px 0 100px 0;overflow:auto;color: #0c0b37; background-color: #fff;}
+
+#sponsors               {padding:50px 0 100px 0;overflow:auto;color: #0c0b37; background-color: #fff;}
+
 #contactUs              {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
