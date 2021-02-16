@@ -4,6 +4,11 @@
     src: url("../resources/fonts/fa-brands-400.ttf");
     font-display: fallback;
 }
+@font-face {
+    font-family: Segoe UI;
+    src: url("../resources/fonts/segoeui.ttf");
+    font-display: fallback;
+}
 
 body {
     position: relative; 
