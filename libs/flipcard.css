@@ -5,6 +5,19 @@
 	perspective: 1000px;
 }
 
+@media all and (max-width: 991px) {
+	.flip-card {
+		width: 200px;
+		height: 150px;
+	}
+	.flip-card h1{
+		font-size: 18pt;
+	}
+	.flip-card p{
+		font-size: 10pt;
+	}
+}
+
 .flip-card-inner {
 	position: relative;
 	width: 100%;
@@ -34,5 +47,5 @@
 
 .flip-card-back {
 	background-color: #ffffff;
-	transform: rotateY(180deg);
+	transform: rotateY(-180deg);
 }

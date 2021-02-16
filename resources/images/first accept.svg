@@ -39,19 +39,19 @@
 			H112.6z"/>
 		<path id="h" class="st4" d="M0,0l209.2,104.6"/>
 		
-			<animateTransform 
-				xlink:href="#h" 
-				accumulate="none" 
-				additive="replace" 
-				attributeName="transform" 
-				attributeType="XML" 
-				begin="0s" calcMode="linear" 
-				dur="10s" fill="freeze" 
-				values="0 -50;0 400;0 -50;0 400;0 400"
-				keyTimes="0;0.05;0.05;0.08;1" 
-				repeatCount="indefinite" 
-				restart="always" type="translate" >
-			</animateTransform>
+		<animateTransform 
+			xlink:href="#h" 
+			accumulate="none" 
+			additive="replace" 
+			attributeName="transform" 
+			attributeType="XML" 
+			begin="0s" calcMode="linear" 
+			dur="10s" fill="freeze" 
+			values="0 -50;0 400;0 -50;0 400;0 400"
+			keyTimes="0;0.05;0.05;0.08;1" 
+			repeatCount="indefinite" 
+			restart="always" type="translate" >
+		</animateTransform>
 	</g>
 </g>
 </svg>
