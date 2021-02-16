@@ -4,7 +4,7 @@ $(document).ready(() => {
     hour = minute * 60,
     day = hour * 24;
 
-  let event = "Feb 26, 2021 11:00:00";
+  let event = "Feb 26, 2021 14:30:00";
   let countDown = new Date(event).getTime();
   let x = setInterval(function () {
       let now = new Date().getTime();
