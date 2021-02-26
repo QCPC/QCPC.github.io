@@ -75,4 +75,19 @@ body {
 
 #sponsors               {padding:50px 0 100px 0;overflow:auto;color: #0c0b37; background-color: #fff;}
 
+#thanksto               {padding:50px 0 50px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
 #contactUs              {padding:50px 0 100px 0;overflow:auto;color: #fff; background-color: #0c0b37;}
+
+#thanksto .flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 300px !important;
+	perspective: 1000px;
+}
+
+@media all and (max-width: 991px) {
+	#thanksto .flip-card {
+		width: 200px;
+		height: 200px !important;
+	}
+}
