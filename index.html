@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 
 <head>
-    <title>Barcode 4rd</title>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-181017867-1"></script>
+    <title>Barcode 4th</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181017867-1"></script>
     <meta charset="utf-8">
+    <meta name="description" content="QCPC-Barcode official website">
+    <meta name="keywords" content="ACM,QCPC,ICPC,Contest,Programming,Barcode,Quchan,qiet,quct">
+    <meta name="author" content="Seyyed Morteza Razavi,Reza Afshoun">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="libs/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/fonts/bootstrap-font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="resources/fonts/bootstrap-font/bootstrap-icons.css" />
     <link rel="stylesheet" href="libs/style.css">
     <link rel="stylesheet" href="libs/hamberger-button.css">
     <link rel="stylesheet" href="libs/count-down.css">
     <link rel="stylesheet" href="libs/timeline.css">
+    <link rel="stylesheet" href="libs/flipcard.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -26,10 +31,13 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a id="navbarNavBrand" class="navbar-brand" href="#artwork"><span class="text-primary">QC</span><span class="text-warning">PC</span> <span class="text-danger">2021</span><br>
+        <a id="navbarNavBrand" class="navbar-brand" href="#artwork">
+            <span class="text-primary">QC</span><span class="text-warning">PC</span> <span
+                class="text-danger">2021</span><br>
             <sup>
-                <small class="text-light ">
-                    <span class="text-info">Q</span>uchan <span class="text-info">u</span>niversity of <span class="text-info">t</span>echnology
+                <small class="text-light">
+                    <span class="text-info">Q</span>uchan <span class="text-info">u</span>niversity of <span
+                        class="text-info">t</span>echnology
                 </small>
             </sup>
         </a>
@@ -46,16 +54,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#eventStart">
                         زمان شروع
-                    <span class="sr-only">(current)</span></a>
+                        <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#register">
                         ثبت‌نام
-                    <span class="sr-only">(current)</span></a>
+                        <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">
                         درباره مسابقه
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">
+                        FAQ
                     </a>
                 </li>
                 <li class="nav-item">
@@ -69,6 +82,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">
+                        حامیان مسابقه
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contactUs">
                         تماس با ما
                     </a>
@@ -76,11 +94,11 @@
             </ul>
         </div>
     </nav>
-        
+
     <!-- ----------------- artwork -------------------- -->
     <div id="artwork" class="container-fluid">
-        <h1 class="text-center display-5">QCPC-Barcode<sup><small>4rd</small></sup></h1>
-        <img width="100%"src="resources/images/artwork.svg" />
+        <h1 class="text-center display-5">QCPC-Barcode<sup><small>4th</small></sup></h1>
+        <img width="100%" src="resources/images/artwork.webp" alt="artwork image" />
     </div>
     <!-- --------------- eventStart ------------------- -->
     <div id="eventStart" class="container-fluid">
@@ -117,16 +135,19 @@
                 <div class="col-12">
                     <p class="text-center p-2">
                         <i class="bi bi-exclamation-triangle text-primary"></i>
-                        دانشجویان دانشگاه صنعتی قوچان می‌توانند برای 
-                        دریافت کد تخفیف به آیدی
-                        <a href="https://t.me/QCPC_Barcode" class="no-text-deco text-primary" dir="ltr" target="blank">@QCPC_Barcode</a>
-                        در تلگرام مراجعه کنند.
+                        دانشجویان می‌توانند با مراجعه به آیدی
+                        <a href="https://t.me/QCPC_Barcode" class="no-text-deco text-primary" dir="ltr"
+                            target="blank">@QCPC_Barcode</a>
+                        در تلگرام و ارائه کارت دانشجویی معتبر از تخفیف
+                        <img src="resources/images/50p-off.svg" width="30px" class="img-fluid" alt="50 precent off">
+                        درصدی برخوردار شوند.
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <button type="button" class="btn btn-outline-info shadow-sm pr-4 pl-4" onclick="window.open('https://evand.com/events/qcpc-barcode','_blank')">
+                    <button type="button" class="btn btn-outline-info shadow-sm pr-4 pl-4"
+                        onclick="window.open('https://evand.com/events/qcpc-barcode','_blank')">
                         ثبت‌نام
                     </button>
                 </div>
@@ -140,37 +161,52 @@
         </h1>
         <div class="container-fluid">
             <div class="row" dir="rtl">
-                <div class="col-md-6 text-right pr-5 pl-5 pl-md-0 pl-lg-0 pl-xl-0">
+                <div class="col-lg-6 text-right pr-5 pl-5 pl-xl-0">
                     <p class="text-justify">
-                        کمیته مسابقات <strong>ACM</strong> دانشگاه صنعتی قوچان (<strong>QCPC</strong>) با حمایت انجمن علمی گروه کامپیوتر و اعضای هیئت علمی گروه،
-                        با رویکرد افزایش توانایی علمی دانشجویان و ایجاد روحیه و انگیزه رقابت علمی قصد برگزاری رقابت‌های برنامه‌نویسی و
-                        تشویق دانشجویان به شرکت در مسابقات برنامه‌نویسی دانشجویی را مد نظر داشته است. 
+                        کمیته مسابقات <strong>ACM</strong> دانشگاه صنعتی قوچان (<strong>QCPC</strong>) با حمایت انجمن
+                        علمی گروه کامپیوتر و اعضای هیئت علمی گروه،
+                        با رویکرد افزایش توانایی علمی دانشجویان و ایجاد روحیه و انگیزه رقابت علمی قصد برگزاری رقابت‌های
+                        برنامه‌نویسی و
+                        تشویق دانشجویان به شرکت در مسابقات برنامه‌نویسی دانشجویی را مد نظر داشته است.
                     </p>
                     <p class="text-justify">
                         هدف ما این است که مسابقات برنامه‌نویسی دانشگاه صنعتی قوچان به یکی از مسابقات آمادگی رسمی
-                        برای مسابقات معتبر تر نظیر <strong>FCPC</strong> در سطح کشوری و <strong>ICPC</strong> تهران در سطح ملی تبدیل شود. 
+                        برای مسابقات معتبر تر نظیر <strong>FCPC</strong> در سطح کشوری و <strong>ICPC</strong> تهران در
+                        سطح ملی تبدیل شود.
                     </p>
                     <p class="text-justify">
-                        دانشگاه صنعتی قوچان در حال حاضر با برخورداری از دانشجویان مستعد و علاقه‌مند به موضوع برنامه‌نویسی
-                        و حمایت اعضا هیئت علمی این افتخار را دارد، که علاوه بر تعلیم تیم‌های دانشجویی بتواند برگزار کننده مسابقات
-                        سطح استانی و کشوری و  پذیرای تیم‌های فعال در این رقابت از دانشگاه‌های کشور باشد.  
+                        دانشگاه صنعتی قوچان در حال حاضر با برخورداری از دانشجویان مستعد و علاقه‌مند به موضوع
+                        برنامه‌نویسی
+                        و حمایت اعضا هیئت علمی این افتخار را دارد، که علاوه بر تعلیم تیم‌های دانشجویی بتواند برگزار
+                        کننده مسابقات
+                        سطح استانی و کشوری و پذیرای تیم‌های فعال در این رقابت از دانشگاه‌های کشور باشد.
                     </p>
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-lg-6 ">
                     <h4 class="text-center pt-4 pb-4">
                         برنامه زمانی
                         مسابقه
                     </h4>
                     <div class="timeline text-right">
-                        <ul id="list">
+                        <ul id="list">    
+                            <li>
+                                <p class="title">
+                                    پیش برنامه
+                                </p>
+                                <p>
+                                    پیش برنامه و توضیحات مورد نیاز مسابقه در وبینار در ساعت 
+                                    ۱۴:۰۰
+                                    برگزار می‌شود.                                    
+                                </p>
+                            </li>
                             <li>
                                 <p class="title">
                                     شروع مسابقه
                                 </p>
                                 <p>
                                     شروع مسابقه از ساعت
-                                    ۱۲:۰۰
-                                    و به مدت ۵ ساعت است.
+                                    ۱۴:۳۰
+                                    و به مدت ۳ ساعت است.
                                 </p>
                             </li>
                             <li>
@@ -179,18 +215,19 @@
                                 </p>
                                 <p>
                                     مسابقه رأس ساعت
-                                    ۱۷:۰۰
+                                    ۱۷:۳۰
                                     پایان می‌یابد، و شرکت کنندگان می‌توانند برای اختتامیه آماده شوند.
                                 </p>
                             </li>
                             <li>
                                 <p class="title">
-                                    اختتامیه    
+                                    اختتامیه
                                 </p>
                                 <p>
                                     اختتامیه مسابقه در ساعت
                                     ۱۸:۰۰
-                                    که شامل تقدیر از نفرات اول تا سوم است.
+                                    به صورت آنلاین در وبینار
+                                    که شامل تقدیر از تیم‌های اول تا سوم است.
                                 </p>
                             </li>
                         </ul>
@@ -199,13 +236,128 @@
             </div>
         </div>
     </div>
+    <!------------------------------------------------->
+    <div id="faq" class="container-fluid">
+        <div class="container-fluid">
+            <div class="row pb-3">
+                <div class="h2 col-12 text-center" dir="rtl">
+                    سؤالات متداول
+                    <br>
+                    <sup class="text-info">(FAQ)</sup>
+                </div>
+            </div>
+            <div class="row p-3" dir="rtl">
+                <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-lx-6 text-right">
+                    <ul>
+                        <li>
+                            <h6 class="text-info">
+                                لینک ورود به مسابقه را از کجا بگیریم؟
+                            </h6>        
+                            <p class="text-justify">
+                                لینک ورود به مسابقات نیم ساعت قبل از شروع مسابقه از طریق ایمیل برای شرکت کنندگان ارسال می‌شود.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                جایزهٔ
+                                first accept چیست؟
+                            </h6>        
+                            <p class="text-justify">
+                                به اول تیمی که، اولین سؤال درست را ارسال کند مبلغ 
+                                ۱٬۰۰۰٬۰۰۰
+                                ریال جایزه تعلق می‌گیرد.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                مسابقه شامل چند سؤال است؟
+                            </h6>        
+                            <p class="text-justify">
+                                مسابقه به دلیل آنلاین بودن در سال جاری
+                                شامل ۹ سؤال است.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                ارسال پاسخ‌ها به چه صورت است؟
+                            </h6>        
+                            <p class="text-justify">
+                                برای توضیح طریقه ارسال پاسخ می‌توانید به صفحهٔ
+                                <a href="https://wiki.icpc.ir/آماده_سازی/برنامه_ی_نمونه" class="no-text-deco text-info"
+                                    target="blank">wiki.icpc</a>
+                                مراجعه کنید.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                قوانین مسابقه و رتبه بندی به چه صورت است؟
+                            </h6>        
+                            <p class="text-justify">
+                                رتبه بندی مطابق با استاندارد 
+                                ICPC
+                                انجام می‌شود؛ بدین صورت که تیم‌ها با توجه به تعداد سؤالات حل شده؛ رتبه بندی می‌شوند.
+                                تیم‌هایی با تعداد ارسال صحیح برابر، بر اساس زمان پاسخ دهی رتبه بندی می‌شوند.
+                                <br>
+                                همچنین به ازای هر ارسال اشتباه از پاسخ‌های انتهایی ۲۰ دقیقه به زمان ارسال پاسخ اضافه می‌شود.
+                                <br>
+                                اطلاعات بیشتر را می‌توان از طریق
+                                <a  href="https://icpc.global/worldfinals/rules#heading-9" class="no-text-deco text-info"
+                                    target="blank">
+                                    سایت رسمی مسابقات ICPC
+                                </a>
+                                بدست آورد.
+                                
+                            </p>                
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-lx-6 text-right">
+                    <ul>
+                        <li>
+                            <h6 class="text-info">
+                                هزینهٔ ثبت‌نام به چه صورت می‌باشد؟
+                            </h6>        
+                            <p class="text-justify">
+                                هزینهٔ ثبت‌نام تیم‌های آزاد برابر ۸۰ هزار تومان می‌باشد.
+                                <br>
+                                همچنین در صورتی که دانشجوی دانشگاهی هستید، می‌توانید با ارائه کارت دانشجویی معتبر به حساب تلگرامی 
+                                <a  href="https://t.me/QCPC_Barcode" class="no-text-deco text-info" dir="ltr"
+                                    target="blank">@QCPC_Barcode</a>
+                                با تخفیف معادل 
+                                ۵۰٪
+                                در مسابقه شرکت کنید.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                آیا مسابقه برای ورودی‌های جدید هم مناسب است؟
+                            </h6>        
+                            <p class="text-justify">
+                                بله، از ورودی‌های جدید به شدت استقبال می‌شود
+                                و حتماً در انتهای مسابقه نیز تقدیراتی از این دانشجواین صورت می‌گیرد.
+                            </p>                
+                        </li>
+                        <li>
+                            <h6 class="text-info">
+                                لینک وبینار را از کجا تهیه کنیم؟
+                            </h6>        
+                            <p class="text-justify">
+                                وبینار در سامانه 
+                                adobe connect 
+                                برگزار می‌شود و قبل از برگزاری لینک آن برای شرکت کنندگان ارسال می‌گردد.
+                            </p>                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------->
     <div id="prizes" class="container-fluid">
         <div class="container-fluid" style="max-width:800px">
             <div class="row">
-                <div class="col-12 pb-5">
-                    <h1 class="text-center ml-4">
-                        جوایز
-                    </h1>                    
+                <div class="h1 col-12 pb-5 text-center">
+                    جوایز
                 </div>
             </div>
             <div class="row">
@@ -213,82 +365,193 @@
                 </div>
                 <div class="col-4 col-lg-3 mw-25">
                     <br><br><br>
-                    <img src="resources/images/2th prize.svg" class="img-fluid " alt="">
+                    <img src="resources/images/2th prize artline.svg" class="img-fluid " alt="2th prize">
                     <h2 class="text-center" dir="rtl">
                         <p>
                             تیم دوم
-                        </p>
-                        <p>
-                            ۷٬۰۰۰٬۰۰۰ ریال
-                        </p>
-                    </h2>
-                </div>
-                <div class="col-4 col-lg-4 mw-25">
-                    <img src="resources/images/1th prize.svg" class="img-fluid " alt="">
-                    <h2 class="text-center" dir="rtl">
-                        <p>
-                            تیم اوّل
-                        </p>
-                        <p>
-                            ۱۰٬۰۰۰٬۰۰۰ ریال
-                        </p>
-                    </h2>
-                </div>
-                <div class="col-4 col-lg-3 pt-5 mt-5 mw-25">
-                    <img src="resources/images/3th prize.svg" class="img-fluid" alt="">
-                    <h2 class="text-center" dir="rtl">
-                        <p>
-                            تیم سوم
                         </p>
                         <p>
                             ۵٬۰۰۰٬۰۰۰ ریال
                         </p>
                     </h2>
                 </div>
+                <div class="col-4 col-lg-4 mw-25">
+                    <img src="resources/images/1th prize artline.svg" class="img-fluid " alt="1th prize">
+                    <h2 class="text-center" dir="rtl">
+                        <p>
+                            تیم اوّل
+                        </p>
+                        <p>
+                            ۸٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h2>
+                </div>
+                <div class="col-4 col-lg-3 pt-5 mt-5 mw-25">
+                    <img src="resources/images/3th prize artline.svg" class="img-fluid" alt="3th prize">
+                    <h2 class="text-center" dir="rtl">
+                        <p>
+                            تیم سوم
+                        </p>
+                        <p>
+                            ۳٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h2>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-9">
+                   <h5 class="text-right d-flex h-100" dir="rtl">
+                        <p class=" justify-content-center align-self-center">
+                            جایزه first accept
+                            به مبلغ 
+                            ۱٬۰۰۰٬۰۰۰ ریال
+                            <sup class="text-info">
+                                فقط برای اولین سؤال
+                            </sup>
+                        </p>
+                    </h5>     
+                </div>
+                <div class="col-3 col-lg-2 mw-25">
+                    <img src="resources/images/first accept.svg" class="img-fluid" alt="first accept prize"> 
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-9">
+                   <h5 class="text-right d-flex h-100" dir="rtl">
+                        <p class=" justify-content-center align-self-center">
+                            جایزه تیم اول از ورودی‌های جدید 
+                            <sup class="text-info">
+                                (۹۹)
+                            </sup>
+                            به مبلغ 
+                            ۱٬۰۰۰٬۰۰۰ ریال
+                        </p>
+                    </h5>     
+                </div>
+                <div class="col-3 col-lg-2 mw-25">
+                    <img src="resources/images/newbie team prize.svg" class="img-fluid" alt="newbie team prize"> 
+                </div>
             </div>
         </div>
     </div>
-    <div id="registeredTeams" class="container-fluid pb-0">
+    <div id="registeredTeams" class="container-fluid pb-5">
         <h1 class="text-center pb-5">
             تیم‌های ثبت شده
         </h1>
 
-        <table class="table table-hover table-striped table-dark" dir="rtl">
+        <table class="table border table-striped m-auto" style="max-width: 1024px;" dir="rtl">
             <thead>
-            <tr>
-                <th scope="col"><div class="text-right">#       </div></th>
-                <th scope="col"><div class="text-right">تیم     </div></th>
-                <th scope="col"><div class="text-right">دانشگاه </div></th>
-                <th scope="col"><div class="text-right">وضعیت   </div></th>
-            </tr>
+                <tr>
+                    <th scope="col">
+                        <div class="text-right"># </div>
+                    </th>
+                    <th scope="col">
+                        <div class="text-right">تیم </div>
+                    </th>
+                    <th scope="col">
+                        <div class="text-right">دانشگاه </div>
+                    </th>
+                    <th scope="col">
+                        <div class="text-right">وضعیت </div>
+                    </th>
+                </tr>
             </thead>
             <tbody id="rteam-tbody">
             </tbody>
         </table>
     </div>
-    <div id="contactUs" class="container-fluid">
-        <div class="bg-white" style="height:1px;width:90%;margin:auto;">
+    <div id="sponsors" class="container-fluid">
+        <div style="height: 2px;width: 80%; margin:auto; background-color:#1da5ce"></div>
+        <h1 class="text-center pb-5 pt-5">
+            حامیان مسابقه
+        </h1>
+
+        <div class="d-flex justify-content-center">
+            <div class="flip-card pr-4">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front shadow rounded card">
+                        <img src="resources/images/SH -logo.png" width="60%" class="m-auto pr-2" alt="SH -logo">
+                    </div>
+                    <div class="flip-card-back shadow d-flex justify-content-center p-3 rounded card">
+                        <h1 class="no-text-deco text-info" dir="ltr">
+                            خانهٔ کوچک
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card pl-4">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front shadow d-flex justify-content-center p-3 rounded card">
+                        <img src="resources/images/adak server logo.svg" alt="ADAK server">
+                    </div>
+                    <div class="flip-card-back shadow d-flex justify-content-center p-3 rounded card">
+                        <h1>
+                            <a  href="https://clients.adakserver.com/cart.php" class="no-text-deco text-info" dir="ltr"
+                                    target="blank">ADAK Server</a>
+                            </a>
+                        </h1>
+                        <p class="text-info">
+                            خدمات فروش سرور و هاست خارج و داخل ایران
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div id="thanksto" class="container-fluid">
+        <h3 class="text-center pb-5 pt-5">
+            با تشکر از
+        </h3>
+
+        <div class="d-flex justify-content-center">
+            <div class="flip-card pl-4">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front shadow d-flex justify-content-center p-3 rounded card bg-dark text-white-50">
+                        <img src="resources/images/Dr Hamid Mansouri.png" height ="70%"  alt="Dr Hamid Mansour" class="rounded-circle m-auto"/>
+                        <p class="m-0 pt-2">
+                            Dr Hamid Mansour
+                        </p>
+                        <p>
+                            Problem Designer
+                        </p>
+                    </div>
+                    <div class="flip-card-back shadow d-flex justify-content-center p-3 rounded card bg-dark text-white-50">                        
+                        <p>
+                            Senior Software Engineer at CafeBazaar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactUs" class="container-fluid">
+        <div style="height: 2px;width: 80%; margin:auto; background-color:#ffffff"></div>
         <div class="container-fluid pt-5">
             <div class="row">
                 <div class="col-12 pb-5">
                     <h1 class="text-center ml-4">
                         تماس با ما
-                    </h1>                    
+                    </h1>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-12 h3 text-center">
+                    <address>
+                        <a href="mailto:info.qcpc@gmail.com"><i class="bi bi-envelope text-white"></i></a>
+                        &nbsp;
+                        <a href="tel:+"><i class="bi bi-telephone text-white"></i></a>
+                        &nbsp;
+                        <a href="https://t.me/" target="blank"><i class="bi bi-telegram text-white"></i></a>
+                    </address>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-1 h3 text-center"> 
-                    <a href="mailto:info.qcpc@gmail.com" class="bi bi-envelope text-dark"></a>         
+                <div class="col-12 text-center">
+                    Copyright &copy;2021 by <br>
+                    <a class="text-info no-text-deco" href="https://github.com/SMR76" target="blank">SMR</a>
+                    &
+                    <a class="text-info no-text-deco" href="https://Rezaafsh.github.io" target="blank">RezaAfshoun</a>
                 </div>
-                <div class="col-2 h3 text-center"> 
-                    <a href="tel:+9893881371165" class="bi bi-telephone text-dark"></a>
-                </div>
-                <div class="col-1 h3 text-center"> 
-                    <a href="https://t.me/QCPC_Barcode" class="bi bi-telegram text-dark" target="blank"></a>
-                </div>
-                <div class="col-4"></div>
             </div>
         </div>
     </div>

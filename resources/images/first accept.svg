@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 170.3 170.3" style="enable-background:new 0 0 170.3 170.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	
+		.st1{fill:none;stroke:#D7B18F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:15.233,4.48,17.025,3.584,25.985,7.168;}
+	.st2{fill:none;stroke:#D7B18F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:13,17,55,5,25,7;}
+	
+		.st3{fill:none;stroke:#D7B18F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:19.628,5.773,21.938,4.618,33.484,9.237;}
+	.st4 {
+		stroke:#FFFFFF;
+		stroke-width:30;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		opacity: 0.7;
+	}
+</style>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="73.7,13 58.2,2.1 52,20.1 33.8,14.5 33.5,33.5 14.5,33.8 20.1,52 2.1,58.2 13,73.7 -2.2,85.2 
+			13,96.6 2.1,112.1 20.1,118.3 14.5,136.5 33.5,136.8 33.8,155.8 52,150.2 58.2,168.2 73.7,157.3 85.2,172.5 96.6,157.3 
+			112.1,168.2 118.3,150.2 136.5,155.8 136.8,136.8 155.8,136.5 150.2,118.3 168.2,112.1 157.3,96.6 172.5,85.2 157.3,73.7 
+			168.2,58.2 150.2,52 155.8,33.8 136.8,33.5 136.5,14.5 118.3,20.1 112.1,2.1 96.6,13 85.2,-2.2 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<path class="st1" d="M74.2,16.1L59.3,5.6l-5.9,17.3L36,17.5l-0.3,18.2L17.5,36l5.4,17.4L5.6,59.3l10.5,14.9L1.5,85.2l14.6,10.9
+			L5.6,111l17.3,5.9l-5.4,17.4l18.2,0.3l0.3,18.2l17.4-5.4l5.9,17.3l14.9-10.5l10.9,14.6l10.9-14.6l14.9,10.5l5.9-17.3l17.4,5.4
+			l0.3-18.2l18.2-0.3l-5.4-17.4l17.3-5.9l-10.5-14.9l14.6-10.9l-14.6-10.9l10.5-14.9l-17.3-5.9l5.4-17.4l-18.2-0.3l-0.3-18.2
+			l-17.4,5.4L111,5.6L96.1,16.1L85.2,1.5L74.2,16.1z"/>
+		<circle class="st1" cx="86" cy="85.2" r="63.3"/>
+		<path class="st2" d="M29.2,85.2c0-31.3,25.4-56.7,56.7-56.7"/>
+		<path class="st3" d="M87.5,58.8H66.9l-5.2,14.3h18l-3.8,10.6h-18l-8.1,22.6H36.6l21-58.2h33.8L87.5,58.8z"/>
+		<path class="st3" d="M134.1,106.6h-14.4l-4.2-13H94.8l-4.1,13H76.4l21.3-58.5h15.6L134.1,106.6z M112.6,83.5l-7.5-23.2l-7.5,23.2
+			H112.6z"/>
+		<path id="h" class="st4" d="M0,0l209.2,104.6"/>
+		
+		<animateTransform 
+			xlink:href="#h" 
+			accumulate="none" 
+			additive="replace" 
+			attributeName="transform" 
+			attributeType="XML" 
+			begin="0s" calcMode="linear" 
+			dur="10s" fill="freeze" 
+			values="0 -50;0 400;0 -50;0 400;0 400"
+			keyTimes="0;0.05;0.05;0.08;1" 
+			repeatCount="indefinite" 
+			restart="always" type="translate" >
+		</animateTransform>
+	</g>
+</g>
+</svg>
