@@ -1,2 +1,3 @@
 # QCPC.github.io
-QCPC (Quchan Collegiate Programming Contest) GitHub web page.
+$\mathsf{\Large\color{activetext}Q\color{gold}C\color{Crimson}P\color{gray}C}$
+(Quchan Collegiate Programming Contest) GitHub web page.
